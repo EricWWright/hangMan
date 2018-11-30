@@ -1,0 +1,13 @@
+display hangman
+choose a word
+display a blank word
+ask user for a letter
+check to see if letter is in the word and if it has already been guessed
+if it is not he updated the image
+added letter to incorrect
+display incorrect
+ask the user for a letter
+repeat step 5
+if letter in word
+loop through the word / display list w/ word that's correct
+
