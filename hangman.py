@@ -105,6 +105,7 @@ while wrong < MAX_WRONG and so_far != word:
 
     guess = input("\n\nEnter your guess: ")
     guess = guess.lower()
+
     while guess in used:
         print("You've alredy guessed the letter", guess)
         guess = input("Enter you guess: ")
@@ -124,6 +125,7 @@ while wrong < MAX_WRONG and so_far != word:
     else:
         print("\nSorry,", guess, "isn't in the word.")
         wrong += 1
+
 if wrong == MAX_WRONG:
     print(HANGMAN[wrong])
     print("\nYou've been hanged!")
